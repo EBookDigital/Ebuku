@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaan E-Book</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Perpustakaan E-Book</h1>
+            <nav>
+                <ul>
+                    <li><a href="#koleksi">Koleksi E-Book</a></li>
+                    <li><a href="#kategori">Kategori</a></li>
+                    <li><a href="#tentang">Tentang Kami</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+            <input type="text" placeholder="Cari e-book..." id="search-bar">
+            <select id="language-selector">
+                <option value="id">Bahasa Indonesia</option>
+                <option value="en">English</option>
+            </select>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Selamat Datang di Perpustakaan E-Book</h2>
+            <p>Temukan ribuan e-book gratis dan premium dari berbagai kategori.</p>
+            <a href="#koleksi" class="btn">Jelajahi Koleksi</a>
+        </div>
+    </section>
+
+    <section id="koleksi">
+        <div class="container">
+            <h2>Koleksi E-Book Terbaru</h2>
+            <div class="books-grid">
+                <div class="book">
+                    <img src="ebook1.jpg" alt="E-Book 1">
+                    <h3>Judul E-Book 1</h3>
+                    <div class="book-rating"><span>⭐⭐⭐⭐☆</span> (120 ulasan)</div>
+                    <button class="btn-favorite">Tambahkan ke Favorit</button>
+                </div>
+                <div class="book">
+                    <img src="ebook2.jpg" alt="E-Book 2">
+                    <h3>Judul E-Book 2</h3>
+                    <div class="book-rating"><span>⭐⭐⭐⭐⭐</span> (90 ulasan)</div>
+                    <button class="btn-favorite">Tambahkan ke Favorit</button>
+                </div>
+                <div class="book">
+                    <img src="ebook3.jpg" alt="E-Book 3">
+                    <h3>Judul E-Book 3</h3>
+                    <div class="book-rating"><span>⭐⭐⭐⭐☆</span> (80 ulasan)</div>
+                    <button class="btn-favorite">Tambahkan ke Favorit</button>
+                </div>
+            </div>
+            <button id="load-more">Muat Lebih Banyak E-Book</button>
+        </div>
+    </section>
+
+    <section id="kategori">
+        <div class="container">
+            <h2>Kategori Populer</h2>
+            <ul class="categories">
+                <li>Fiksi</li>
+                <li>Non-fiksi</li>
+                <li>Teknologi</li>
+                <li>Bisnis</li>
+                <li>Kesehatan</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="testimoni">
+        <div class="container">
+            <h2>Apa Kata Pengguna</h2>
+            <div class="testimoni-grid">
+                <blockquote>"Platform ini luar biasa! Banyak pilihan e-book."</blockquote>
+                <cite>- Andi, Pengguna Setia</cite>
+                <blockquote>"Sangat membantu, saya menemukan e-book yang saya butuhkan dengan mudah!"</blockquote>
+                <cite>- Sari, Pembaca Aktif</cite>
+            </div>
+        </div>
+    </section>
+
+    <section id="tentang">
+        <div class="container">
+            <h2>Tentang Kami</h2>
+            <p>Kami menyediakan berbagai e-book dari berbagai genre untuk memenuhi kebutuhan pembaca di seluruh dunia.</p>
+        </div>
+    </section>
+
+    <section id="kontak">
+        <div class="container">
+            <h2>Kontak Kami</h2>
+            <form action="#">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Perpustakaan E-Book. All Rights Reserved.</p>
+            <div class="social-share">
+                <a href="https://facebook.com/share">Bagikan di Facebook</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
