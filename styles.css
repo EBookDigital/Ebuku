@@ -174,3 +174,11 @@ body {
     }
 }
 
+#hero {
+    background: url('https://img.pikbest.com/ai/illus_our/20230424/791a3f6f965cffe40b61361d2b3714d0.jpg!w700wp') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+
