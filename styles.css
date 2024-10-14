@@ -7,6 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: #f8f9fa;
 }
 
 header {
@@ -45,8 +46,9 @@ header nav ul li a {
     padding: 5px;
 }
 
+/* Background untuk Hero Section */
 #hero {
-    background: url('hero-bg.jpg') no-repeat center center/cover;
+    background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fms.pikbest.com%2Fbackgrounds%2Fstacked-books-stack-of-on-top-a-table_9470873.html&psig=AOvVaw3dqHjO8qGK7kRivGsMMZPi&ust=1729000976744000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOCW0d2EjokDFQAAAAAdAAAAABAE') no-repeat center center/cover;
     color: white;
     padding: 100px 0;
     text-align: center;
@@ -59,6 +61,11 @@ header nav ul li a {
     text-decoration: none;
     border-radius: 5px;
     margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#hero .btn:hover {
+    background-color: #c0392b;
 }
 
 #koleksi .books-grid {
@@ -143,42 +150,8 @@ footer {
     header nav ul {
         flex-direction: column;
     }
-}
-/* Animasi Hover untuk Butang */
-.btn, .btn-favorite, #load-more {
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.btn:hover, .btn-favorite:hover, #load-more:hover {
-    background-color: #c0392b;
-    transform: scale(1.05);
-}
-
-/* Penggunaan Warna Lebih Menarik */
-body {
-    background-color: #f8f9fa;
-}
-
-/* Responsif Tambahan */
-@media (max-width: 480px) {
-    .container {
-        padding: 0 10px;
-    }
-
-    #kategori ul {
-        flex-direction: column;
-    }
 
     .testimoni-grid {
         grid-template-columns: 1fr;
     }
 }
-
-#hero {
-    background: url('https://img.pikbest.com/ai/illus_our/20230424/791a3f6f965cffe40b61361d2b3714d0.jpg!w700wp') no-repeat center center/cover;
-    color: white;
-    padding: 100px 0;
-    text-align: center;
-}
-
-
