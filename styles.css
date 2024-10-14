@@ -144,3 +144,33 @@ footer {
         flex-direction: column;
     }
 }
+/* Animasi Hover untuk Butang */
+.btn, .btn-favorite, #load-more {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover, .btn-favorite:hover, #load-more:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+}
+
+/* Penggunaan Warna Lebih Menarik */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Responsif Tambahan */
+@media (max-width: 480px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    #kategori ul {
+        flex-direction: column;
+    }
+
+    .testimoni-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
